@@ -16,13 +16,12 @@ style.textContent = `
     display: block;
     font-weight: 500;
     font-size: 18px;
-    margin-bottom: 8px;
+    margin-bottom: -8px;
   }
 
   .form-input {
     display: block;
     width: 100%;
-    min-height: 40px;
     padding: 8px 12px;
     font-size: 16px;
     border: 1px solid #666;
@@ -58,7 +57,7 @@ style.textContent = `
 
   .form-fieldset input[type="radio"] {
     margin-right: 8px;
-    margin-top: 15px;
+    margin-bottom: 3px;
   }
 
   .form-btn {
